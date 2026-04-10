@@ -1,0 +1,120 @@
+/* MAIN CONTAINER */
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* LEFT SIDE */
+.login-left {
+  flex: 1;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-left h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+/* FEATURES */
+.features p {
+  font-size: 15px;
+  margin: 10px 0;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+/* QUOTE */
+.quote {
+  margin-top: 50px;
+  font-style: italic;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+/* RIGHT SIDE */
+.login-right {
+  flex: 1;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGIN CARD */
+.login-card {
+  width: 100%;
+  max-width: 350px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* TEXT */
+.login-card h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.subtitle {
+  margin-bottom: 25px;
+  color: gray;
+  font-size: 14px;
+}
+
+/* INPUTS */
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: #4ca1af;
+}
+
+/* BUTTON */
+.login-card button {
+  width: 100%;
+  padding: 14px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.login-card button:hover {
+  background: #1a252f;
+}
+
+/* SWITCH TEXT */
+.switch-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch-text span {
+  color: #4ca1af;
+  cursor: pointer;
+  font-weight: 500;
+}

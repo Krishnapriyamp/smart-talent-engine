@@ -1,0 +1,40 @@
+body {
+  font-family: "Segoe UI";
+  background: #f4f6f9;
+}
+
+nav button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #34495e;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+  color: #2c3e50;
+}
+.result-card {
+  border-left: 5px solid #2c3e50;
+  transition: transform 0.2s;
+}
+
+.result-card:hover {
+  transform: scale(1.02);
+}
+
+.top-badge {
+  margin-left: 10px;
+  background: gold;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}

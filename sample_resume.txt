@@ -1,0 +1,15 @@
+John Doe
+Software Engineer
+
+Experience:
+- 5 years as Java Developer at XYZ Corp
+- Worked on Spring Boot, Hibernate, REST APIs
+- Developed microservices
+
+Skills:
+- Java, Python, SQL, Machine Learning
+- Spring Framework, Hibernate
+- REST APIs, Microservices
+
+Education:
+- Bachelor's in Computer Science

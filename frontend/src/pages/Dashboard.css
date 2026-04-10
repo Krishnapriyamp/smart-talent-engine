@@ -1,0 +1,226 @@
+.dashboard {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  margin: 20px auto;
+  border-radius: 16px;
+  width: 80%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+textarea,
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 14px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.result-card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(46, 73, 120, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.result-card.top-candidate {
+  border-color: #f8b700;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.result-header h3 {
+  margin: 0;
+}
+
+.subtext {
+  margin: 4px 0 0;
+  color: #667085;
+  font-size: 14px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.gold {
+  background: #fddc69;
+}
+
+.score-pill {
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.score-pill span {
+  opacity: 0.9;
+  font-size: 13px;
+}
+
+.confidence-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-icon {
+  cursor: help;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.info-icon:hover {
+  opacity: 1;
+}
+
+.warning {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.skill-row h4,
+.breakdown h4,
+.explanation-box h4 {
+  margin-bottom: 10px;
+}
+
+.matched {
+  color: #0f766e;
+  font-weight: 600;
+}
+
+.missing {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.breakdown p,
+.explanation-box p,
+.explanation-box ul {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.explanation-box ul {
+  padding-left: 18px;
+}
+
+.explanation-box li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 860px) {
+  .info-grid,
+  .skill-row {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .result-card {
+    width: 95%;
+  }
+}
+
+.section {
+  margin-top: 10px;
+}
+
+.progress {
+  background: #eee;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.bar {
+  height: 10px;
+  background: #2c3e50;
+  border-radius: 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.silver { background: silver; }
+.bronze { background: #cd7f32; }
+
+.formula {
+  font-size: 12px;
+  color: #555;
+}
